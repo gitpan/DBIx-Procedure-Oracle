@@ -1,6 +1,6 @@
 package DBIx::Procedure::Oracle;
 
-$VERSION = 0.1;
+$VERSION = 0.2;
 
 use DBI qw( :sql_types );
 # sql_types are needed for binding dates and numbers
@@ -211,6 +211,11 @@ the execute call in an eval block.
 =head1 BUGS
 
 Please report them!
+
+=head1 ACKNOWLEDGEMENT
+
+Special thanks to Andrew Theaker ( andrew.j.theaker@gsk.com ) for providing me with the
+rationalle behind this module back in the days when we used to work together!
 
 =head1 AUTHOR
 
